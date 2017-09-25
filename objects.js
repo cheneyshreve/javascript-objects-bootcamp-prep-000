@@ -4,8 +4,8 @@ playlist = {
   Swift: 'look what you made me do'
 }
 
-function updatePlaylist(playlist,name,title){
-  return Object.assign({}, playlist, {[name]: title})
+function updatePlaylist(playlist,artistName,title){
+  return Object.assign({}, playlist, {[artistName]: title})
 }
 
 function removeFromPlaylist(playlist,name){
